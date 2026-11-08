@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 410" width="900" height="410" font-family="'Courier New', Courier, 'Liberation Mono', monospace">
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000" opacity="0.35"/>
+    </pattern>
+    <linearGradient id="band" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A855F7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#C4B5FD" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0.6" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.75"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A855F7"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowBig" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter><clipPath id="c0"><rect x="48" y="103" height="27" width="0"><animate attributeName="width" calcMode="discrete" dur="22.0s" repeatCount="indefinite" values="0.0;0.0;9.0;18.0;27.0;36.0;45.0;54.0;63.0;72.0;81.0;90.0;99.0;108.0;117.0;126.0;135.0;144.0;153.0;162.0;171.0;180.0;189.0;198.0;207.0;216.0;225.0;234.0;243.0;252.0;261.0;270.0;279.0;288.0;297.0;306.0;315.0;324.0;333.0;342.0;351.0;360.0;369.0;378.0;387.0;396.0;405.0;414.0;423.0;432.0;441.0;450.0;459.0" keyTimes="0.0000;0.0341;0.0346;0.0352;0.0357;0.0363;0.0368;0.0374;0.0379;0.0385;0.0390;0.0395;0.0401;0.0406;0.0412;0.0417;0.0423;0.0428;0.0434;0.0439;0.0445;0.0450;0.0455;0.0461;0.0466;0.0472;0.0477;0.0483;0.0488;0.0494;0.0499;0.0505;0.0510;0.0515;0.0521;0.0526;0.0532;0.0537;0.0543;0.0548;0.0554;0.0559;0.0565;0.0570;0.0575;0.0581;0.0586;0.0592;0.0597;0.0603;0.0608;0.0614;0.0619"/></rect></clipPath>
+<clipPath id="c1"><rect x="48" y="130" height="27" width="0"><animate attributeName="width" calcMode="discrete" dur="22.0s" repeatCount="indefinite" values="0.0;0.0;9.0;18.0;27.0;36.0;45.0;54.0;63.0;72.0;81.0;90.0;99.0;108.0;117.0;126.0;135.0;144.0;153.0;162.0;171.0;180.0;189.0;198.0;207.0;216.0;225.0;234.0;243.0;252.0;261.0;270.0;279.0;288.0;297.0;306.0;315.0;324.0;333.0;342.0;351.0;360.0;369.0;378.0;387.0;396.0;405.0;414.0;423.0;432.0;441.0;450.0;459.0" keyTimes="0.0000;0.0801;0.0806;0.0812;0.0817;0.0823;0.0828;0.0834;0.0839;0.0845;0.0850;0.0855;0.0861;0.0866;0.0872;0.0877;0.0883;0.0888;0.0894;0.0899;0.0905;0.0910;0.0915;0.0921;0.0926;0.0932;0.0937;0.0943;0.0948;0.0954;0.0959;0.0965;0.0970;0.0975;0.0981;0.0986;0.0992;0.0997;0.1003;0.1008;0.1014;0.1019;0.1025;0.1030;0.1035;0.1041;0.1046;0.1052;0.1057;0.1063;0.1068;0.1074;0.1079"/></rect></clipPath>
+<clipPath id="c2"><rect x="48" y="157" height="27" width="0"><animate attributeName="width" calcMode="discrete" dur="22.0s" repeatCount="indefinite" values="0.0;0.0;9.0;18.0;27.0;36.0;45.0;54.0;63.0;72.0;81.0;90.0;99.0;108.0;117.0;126.0;135.0;144.0;153.0;162.0;171.0;180.0;189.0;198.0;207.0;216.0;225.0;234.0;243.0;252.0;261.0;270.0;279.0;288.0;297.0;306.0;315.0;324.0;333.0;342.0;351.0;360.0;369.0;378.0;387.0;396.0;405.0;414.0;423.0;432.0;441.0;450.0" keyTimes="0.0000;0.1261;0.1266;0.1272;0.1277;0.1283;0.1288;0.1294;0.1299;0.1305;0.1310;0.1315;0.1321;0.1326;0.1332;0.1337;0.1343;0.1348;0.1354;0.1359;0.1365;0.1370;0.1375;0.1381;0.1386;0.1392;0.1397;0.1403;0.1408;0.1414;0.1419;0.1425;0.1430;0.1435;0.1441;0.1446;0.1452;0.1457;0.1463;0.1468;0.1474;0.1479;0.1485;0.1490;0.1495;0.1501;0.1506;0.1512;0.1517;0.1523;0.1528;0.1534"/></rect></clipPath>
+<clipPath id="c3"><rect x="48" y="184" height="27" width="0"><animate attributeName="width" calcMode="discrete" dur="22.0s" repeatCount="indefinite" values="0.0;108.0;117.0;126.0;135.0;144.0;153.0;162.0" keyTimes="0.0000;0.1875;0.1904;0.1934;0.1963;0.1993;0.2022;0.2052"/></rect></clipPath>
+<clipPath id="c4"><rect x="48" y="211" height="27" width="0"><animate attributeName="width" calcMode="discrete" dur="22.0s" repeatCount="indefinite" values="0.0;0.0;9.0;18.0;27.0;36.0;45.0;54.0;63.0;72.0;81.0;90.0;99.0;108.0;117.0;126.0;135.0;144.0;153.0;162.0;171.0;180.0;189.0;198.0;207.0;216.0;225.0;234.0;243.0;252.0;261.0;270.0;279.0;288.0;297.0;306.0;315.0;324.0;333.0;342.0;351.0;360.0;369.0;378.0;387.0;396.0;405.0;414.0;423.0;432.0;441.0;450.0;459.0;468.0" keyTimes="0.0000;0.2234;0.2239;0.2245;0.2250;0.2255;0.2261;0.2266;0.2272;0.2277;0.2283;0.2288;0.2294;0.2299;0.2305;0.2310;0.2315;0.2321;0.2326;0.2332;0.2337;0.2343;0.2348;0.2354;0.2359;0.2365;0.2370;0.2375;0.2381;0.2386;0.2392;0.2397;0.2403;0.2408;0.2414;0.2419;0.2425;0.2430;0.2435;0.2441;0.2446;0.2452;0.2457;0.2463;0.2468;0.2474;0.2479;0.2485;0.2490;0.2495;0.2501;0.2506;0.2512;0.2517"/></rect></clipPath>
+<clipPath id="c5"><rect x="48" y="238" height="27" width="0"><animate attributeName="width" calcMode="discrete" dur="22.0s" repeatCount="indefinite" values="0.0;108.0;117.0;126.0;135.0;144.0;153.0;162.0;171.0;180.0;189.0;198.0;207.0;216.0;225.0;234.0;243.0;252.0" keyTimes="0.0000;0.2858;0.2888;0.2917;0.2947;0.2976;0.3006;0.3035;0.3065;0.3095;0.3124;0.3154;0.3183;0.3213;0.3242;0.3272;0.3301;0.3331"/></rect></clipPath>
+<clipPath id="c6"><rect x="48" y="265" height="27" width="0"><animate attributeName="width" calcMode="discrete" dur="22.0s" repeatCount="indefinite" values="0.0;0.0;9.0;18.0;27.0;36.0;45.0;54.0;63.0;72.0;81.0;90.0;99.0;108.0;117.0;126.0;135.0;144.0;153.0;162.0;171.0;180.0;189.0;198.0;207.0;216.0;225.0;234.0;243.0;252.0;261.0;270.0;279.0;288.0;297.0" keyTimes="0.0000;0.3513;0.3518;0.3524;0.3529;0.3535;0.3540;0.3545;0.3551;0.3556;0.3562;0.3567;0.3573;0.3578;0.3584;0.3589;0.3595;0.3600;0.3605;0.3611;0.3616;0.3622;0.3627;0.3633;0.3638;0.3644;0.3649;0.3655;0.3660;0.3665;0.3671;0.3676;0.3682;0.3687;0.3693"/></rect></clipPath>
+<clipPath id="c7"><rect x="48" y="292" height="27" width="0"><animate attributeName="width" calcMode="discrete" dur="22.0s" repeatCount="indefinite" values="0.0;108.0;117.0;126.0;135.0;144.0;153.0;162.0;171.0;180.0;189.0;198.0;207.0;216.0;225.0;234.0;243.0;252.0;261.0;270.0;279.0;288.0;297.0;306.0;315.0;324.0;333.0;342.0;351.0;360.0;369.0;378.0;387.0;396.0;405.0;414.0;423.0;432.0;441.0;450.0;459.0" keyTimes="0.0000;0.4034;0.4063;0.4093;0.4122;0.4152;0.4181;0.4211;0.4240;0.4270;0.4300;0.4329;0.4359;0.4388;0.4418;0.4447;0.4477;0.4506;0.4536;0.4565;0.4595;0.4625;0.4654;0.4684;0.4713;0.4743;0.4772;0.4802;0.4831;0.4861;0.4890;0.4920;0.4950;0.4979;0.5009;0.5038;0.5068;0.5097;0.5127;0.5156;0.5186"/></rect></clipPath>
+<clipPath id="c8"><rect x="48" y="319" height="27" width="0"><animate attributeName="width" calcMode="discrete" dur="22.0s" repeatCount="indefinite" values="0.0;0.0;9.0;18.0;27.0;36.0;45.0;54.0;63.0;72.0;81.0;90.0;99.0;108.0;117.0;126.0;135.0;144.0;153.0;162.0;171.0;180.0;189.0;198.0;207.0;216.0;225.0;234.0;243.0;252.0;261.0;270.0;279.0;288.0;297.0;306.0;315.0;324.0;333.0;342.0;351.0;360.0;369.0;378.0;387.0;396.0;405.0;414.0;423.0;432.0;441.0;450.0;459.0;468.0;477.0;486.0" keyTimes="0.0000;0.5368;0.5373;0.5379;0.5384;0.5390;0.5395;0.5400;0.5406;0.5411;0.5417;0.5422;0.5428;0.5433;0.5439;0.5444;0.5450;0.5455;0.5460;0.5466;0.5471;0.5477;0.5482;0.5488;0.5493;0.5499;0.5504;0.5510;0.5515;0.5520;0.5526;0.5531;0.5537;0.5542;0.5548;0.5553;0.5559;0.5564;0.5570;0.5575;0.5580;0.5586;0.5591;0.5597;0.5602;0.5608;0.5613;0.5619;0.5624;0.5630;0.5635;0.5640;0.5646;0.5651;0.5657;0.5662"/></rect></clipPath>
+    <linearGradient id="bez" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <radialGradient id="screenGlow" cx="0.5" cy="0.45" r="0.7">
+      <stop offset="0" stop-color="#1A0B2E" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#05040A"/>
+    </radialGradient>
+    <clipPath id="screen"><rect x="18" y="56" width="864" height="336" rx="14"/></clipPath>
+  </defs>
+  <style></style>
+
+  <rect x="2" y="2" width="896" height="406" rx="20" fill="#0B0A14" stroke="url(#bez)" stroke-width="2.5"/>
+  <g font-size="13" letter-spacing="2.5">
+    <circle cx="36" cy="30" r="5" fill="#A855F7"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
+    <text x="52" y="35" fill="#C4B5FD">SSL SECURE UPLINK</text>
+    <text x="450.0" y="35" fill="#8B8BA7" text-anchor="middle">═══ OPERATOR CONSOLE ═══</text>
+    <text x="868" y="35" fill="#60A5FA" text-anchor="end">TTY/0 ▸ ENCRYPTED</text>
+  </g>
+  <g clip-path="url(#screen)">
+    <rect x="18" y="56" width="864" height="336" fill="url(#screenGlow)"/>
+    <g><animate attributeName="opacity" values="1;1;0.86;1;1;0.94;1;1" keyTimes="0;0.40;0.41;0.43;0.75;0.76;0.78;1" dur="5s" repeatCount="indefinite"/>
+      <text x="48" y="86" font-size="12" letter-spacing="2" fill="#2A2838">SILVIUM SECURITY LAB (TM) — UNIFIED OPERATING SYSTEM — 64K RAM SYSTEM ONLINE</text>
+      <g filter="url(#glow)">
+      <text x="48" y="118" font-size="15" xml:space="preserve" clip-path="url(#c0)"><tspan fill="#8B8BA7">» INITIATING SECURE BOOT SEQUENCE </tspan><tspan fill="#2A2838">.......... </tspan><tspan fill="#60A5FA">[ OK ]</tspan></text>
+<text x="48" y="145" font-size="15" xml:space="preserve" clip-path="url(#c1)"><tspan fill="#8B8BA7">» LOADING MODULES: netsec, siem, redteam </tspan><tspan fill="#2A2838">... </tspan><tspan fill="#60A5FA">[ OK ]</tspan></text>
+<text x="48" y="172" font-size="15" xml:space="preserve" clip-path="url(#c2)"><tspan fill="#8B8BA7">» VERIFYING OPERATOR: g.cesano </tspan><tspan fill="#2A2838">............ </tspan><tspan fill="#60A5FA">[ OK ]</tspan></text>
+<text x="48" y="199" font-size="15" xml:space="preserve" clip-path="url(#c3)"><tspan fill="#A855F7">root@ssl</tspan><tspan fill="#8B8BA7">:</tspan><tspan fill="#60A5FA">~</tspan><tspan fill="#F5F3FF">$ </tspan><tspan fill="#F5F3FF">whoami</tspan></text>
+<rect y="186" width="9.0" height="16" fill="#C4B5FD" opacity="0"><animate attributeName="x" calcMode="discrete" dur="22.0s" repeatCount="indefinite" values="48.0;156.0;165.0;174.0;183.0;192.0;201.0;210.0" keyTimes="0.0000;0.1875;0.1904;0.1934;0.1963;0.1993;0.2022;0.2052"/><animate attributeName="opacity" calcMode="discrete" dur="22.0s" repeatCount="indefinite" values="0;1;0" keyTimes="0;0.1693;0.2165"/></rect>
+<text x="48" y="226" font-size="15" xml:space="preserve" clip-path="url(#c4)"><tspan fill="#F5F3FF">  Gaetano Cesano </tspan><tspan fill="#A855F7">:: </tspan><tspan fill="#C4B5FD">Network &amp; Cybersecurity Engineer</tspan></text>
+<text x="48" y="253" font-size="15" xml:space="preserve" clip-path="url(#c5)"><tspan fill="#A855F7">root@ssl</tspan><tspan fill="#8B8BA7">:</tspan><tspan fill="#60A5FA">~</tspan><tspan fill="#F5F3FF">$ </tspan><tspan fill="#F5F3FF">cat /etc/mission</tspan></text>
+<rect y="240" width="9.0" height="16" fill="#C4B5FD" opacity="0"><animate attributeName="x" calcMode="discrete" dur="22.0s" repeatCount="indefinite" values="48.0;156.0;165.0;174.0;183.0;192.0;201.0;210.0;219.0;228.0;237.0;246.0;255.0;264.0;273.0;282.0;291.0;300.0" keyTimes="0.0000;0.2858;0.2888;0.2917;0.2947;0.2976;0.3006;0.3035;0.3065;0.3095;0.3124;0.3154;0.3183;0.3213;0.3242;0.3272;0.3301;0.3331"/><animate attributeName="opacity" calcMode="discrete" dur="22.0s" repeatCount="indefinite" values="0;1;0" keyTimes="0;0.2676;0.3445"/></rect>
+<text x="48" y="280" font-size="15" xml:space="preserve" clip-path="url(#c6)"><tspan fill="#C4B5FD">  Design. Secure. Assess. </tspan><tspan fill="#60A5FA">Repeat.</tspan></text>
+<text x="48" y="307" font-size="15" xml:space="preserve" clip-path="url(#c7)"><tspan fill="#A855F7">root@ssl</tspan><tspan fill="#8B8BA7">:</tspan><tspan fill="#60A5FA">~</tspan><tspan fill="#F5F3FF">$ </tspan><tspan fill="#F5F3FF">./audit --scope infrastructure --harden</tspan></text>
+<rect y="294" width="9.0" height="16" fill="#C4B5FD" opacity="0"><animate attributeName="x" calcMode="discrete" dur="22.0s" repeatCount="indefinite" values="48.0;156.0;165.0;174.0;183.0;192.0;201.0;210.0;219.0;228.0;237.0;246.0;255.0;264.0;273.0;282.0;291.0;300.0;309.0;318.0;327.0;336.0;345.0;354.0;363.0;372.0;381.0;390.0;399.0;408.0;417.0;426.0;435.0;444.0;453.0;462.0;471.0;480.0;489.0;498.0;507.0" keyTimes="0.0000;0.4034;0.4063;0.4093;0.4122;0.4152;0.4181;0.4211;0.4240;0.4270;0.4300;0.4329;0.4359;0.4388;0.4418;0.4447;0.4477;0.4506;0.4536;0.4565;0.4595;0.4625;0.4654;0.4684;0.4713;0.4743;0.4772;0.4802;0.4831;0.4861;0.4890;0.4920;0.4950;0.4979;0.5009;0.5038;0.5068;0.5097;0.5127;0.5156;0.5186"/><animate attributeName="opacity" calcMode="discrete" dur="22.0s" repeatCount="indefinite" values="0;1;0" keyTimes="0;0.3852;0.5300"/></rect>
+<text x="48" y="334" font-size="15" xml:space="preserve" clip-path="url(#c8)"><tspan fill="#8B8BA7">  [</tspan><tspan fill="#A855F7">+</tspan><tspan fill="#8B8BA7">] </tspan><tspan fill="#F5F3FF">Perimeter sealed. </tspan><tspan fill="#60A5FA">0 critical findings remaining.</tspan></text>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="22.0s" repeatCount="indefinite" values="0;1" keyTimes="0;0.5958"/><text x="48" y="361" font-size="15" xml:space="preserve"><tspan fill="#A855F7">root@ssl</tspan><tspan fill="#8B8BA7">:</tspan><tspan fill="#60A5FA">~</tspan><tspan fill="#F5F3FF">$ </tspan></text><rect x="156.0" y="348" width="9.0" height="16" fill="#C4B5FD"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></rect></g>
+      </g>
+    </g>
+    
+  <rect width="900" height="410" fill="url(#scan)" pointer-events="none"/>
+  <rect x="0" y="-120" width="900" height="120" fill="url(#band)">
+    <animate attributeName="y" values="-120;410" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="900" height="410" fill="url(#vignette)" pointer-events="none"/>
+  </g>
+  <rect x="18" y="56" width="864" height="336" rx="14" fill="none" stroke="#2A2838" stroke-width="2"/>
+</svg>

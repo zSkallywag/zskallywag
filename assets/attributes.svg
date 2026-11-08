@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 394" width="900" height="394" font-family="'Courier New', Courier, 'Liberation Mono', monospace">
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000" opacity="0.35"/>
+    </pattern>
+    <linearGradient id="band" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A855F7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#C4B5FD" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0.6" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.75"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A855F7"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowBig" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style></style>
+
+  <rect x="2" y="2" width="896" height="390" rx="6" fill="#0B0A14" stroke="url(#edge)" stroke-width="2"/>
+  <path d="M2 30 L20 2 H700 L720 22 H898" fill="none" stroke="#8B5CF6" stroke-opacity="0.0"/>
+  <g font-size="14" letter-spacing="3">
+    <text x="34" y="38" fill="#C4B5FD" font-weight="bold">◢ OPERATOR ATTRIBUTES</text>
+    <text x="866" y="38" fill="#8B8BA7" text-anchor="end">STAT/MATRIX ▸ LVL 01-10</text>
+    <line x1="34" y1="52" x2="866" y2="52" stroke="#2A2838"/>
+  </g>
+  
+    <g>
+      <rect x="34" y="54" width="832" height="40" fill="#1A0B2E" opacity="0.0">
+        <animate attributeName="opacity" values="0;0;0.75;0;0" keyTimes="0;0.000;0.083;0.167;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+      <text x="52" y="78" font-size="13" fill="#60A5FA" letter-spacing="2">[NET]</text>
+      <text x="120" y="76" font-size="16" fill="#F5F3FF" letter-spacing="2" font-weight="bold">NETWORK SECURITY</text>
+      <text x="120" y="92" font-size="11" fill="#8B8BA7" letter-spacing="1">Firewalls ▸ segmentation ▸ hardening</text>
+      <g filter="url(#glow)"><rect x="520" y="64" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.40s" dur="0.15s" fill="freeze"/></rect><rect x="547" y="64" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.46s" dur="0.15s" fill="freeze"/></rect><rect x="574" y="64" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.52s" dur="0.15s" fill="freeze"/></rect><rect x="601" y="64" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.58s" dur="0.15s" fill="freeze"/></rect><rect x="628" y="64" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.64s" dur="0.15s" fill="freeze"/></rect><rect x="655" y="64" width="22" height="18" fill="#3B82F6" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.70s" dur="0.15s" fill="freeze"/></rect><rect x="682" y="64" width="22" height="18" fill="#3B82F6" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.76s" dur="0.15s" fill="freeze"/></rect><rect x="709" y="64" width="22" height="18" fill="#3B82F6" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.82s" dur="0.15s" fill="freeze"/></rect><rect x="736" y="64" width="22" height="18" fill="#3B82F6" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.88s" dur="0.15s" fill="freeze"/></rect><rect x="763" y="64" width="22" height="18" fill="none" stroke="#2A2838" stroke-width="1.5"/></g>
+      <text x="848" y="78" font-size="16" fill="#C4B5FD" text-anchor="end" font-weight="bold">09</text>
+    </g>
+    <g>
+      <rect x="34" y="100" width="832" height="40" fill="#1A0B2E" opacity="0.0">
+        <animate attributeName="opacity" values="0;0;0.75;0;0" keyTimes="0;0.167;0.250;0.333;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+      <text x="52" y="124" font-size="13" fill="#60A5FA" letter-spacing="2">[OFF]</text>
+      <text x="120" y="122" font-size="16" fill="#F5F3FF" letter-spacing="2" font-weight="bold">OFFENSIVE SECURITY</text>
+      <text x="120" y="138" font-size="11" fill="#8B8BA7" letter-spacing="1">Pentesting ▸ exploitation ▸ recon</text>
+      <g filter="url(#glow)"><rect x="520" y="110" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.65s" dur="0.15s" fill="freeze"/></rect><rect x="547" y="110" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.71s" dur="0.15s" fill="freeze"/></rect><rect x="574" y="110" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.77s" dur="0.15s" fill="freeze"/></rect><rect x="601" y="110" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.83s" dur="0.15s" fill="freeze"/></rect><rect x="628" y="110" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.89s" dur="0.15s" fill="freeze"/></rect><rect x="655" y="110" width="22" height="18" fill="#3B82F6" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.95s" dur="0.15s" fill="freeze"/></rect><rect x="682" y="110" width="22" height="18" fill="#3B82F6" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.01s" dur="0.15s" fill="freeze"/></rect><rect x="709" y="110" width="22" height="18" fill="#3B82F6" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.07s" dur="0.15s" fill="freeze"/></rect><rect x="736" y="110" width="22" height="18" fill="none" stroke="#2A2838" stroke-width="1.5"/><rect x="763" y="110" width="22" height="18" fill="none" stroke="#2A2838" stroke-width="1.5"/></g>
+      <text x="848" y="124" font-size="16" fill="#C4B5FD" text-anchor="end" font-weight="bold">08</text>
+    </g>
+    <g>
+      <rect x="34" y="146" width="832" height="40" fill="#1A0B2E" opacity="0.0">
+        <animate attributeName="opacity" values="0;0;0.75;0;0" keyTimes="0;0.333;0.417;0.500;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+      <text x="52" y="170" font-size="13" fill="#60A5FA" letter-spacing="2">[VRA]</text>
+      <text x="120" y="168" font-size="16" fill="#F5F3FF" letter-spacing="2" font-weight="bold">VULNERABILITY RESEARCH</text>
+      <text x="120" y="184" font-size="11" fill="#8B8BA7" letter-spacing="1">Discovery ▸ analysis ▸ disclosure</text>
+      <g filter="url(#glow)"><rect x="520" y="156" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.90s" dur="0.15s" fill="freeze"/></rect><rect x="547" y="156" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.96s" dur="0.15s" fill="freeze"/></rect><rect x="574" y="156" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.02s" dur="0.15s" fill="freeze"/></rect><rect x="601" y="156" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.08s" dur="0.15s" fill="freeze"/></rect><rect x="628" y="156" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.14s" dur="0.15s" fill="freeze"/></rect><rect x="655" y="156" width="22" height="18" fill="#3B82F6" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.20s" dur="0.15s" fill="freeze"/></rect><rect x="682" y="156" width="22" height="18" fill="#3B82F6" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.26s" dur="0.15s" fill="freeze"/></rect><rect x="709" y="156" width="22" height="18" fill="#3B82F6" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.32s" dur="0.15s" fill="freeze"/></rect><rect x="736" y="156" width="22" height="18" fill="none" stroke="#2A2838" stroke-width="1.5"/><rect x="763" y="156" width="22" height="18" fill="none" stroke="#2A2838" stroke-width="1.5"/></g>
+      <text x="848" y="170" font-size="16" fill="#C4B5FD" text-anchor="end" font-weight="bold">08</text>
+    </g>
+    <g>
+      <rect x="34" y="192" width="832" height="40" fill="#1A0B2E" opacity="0.0">
+        <animate attributeName="opacity" values="0;0;0.75;0;0" keyTimes="0;0.500;0.583;0.667;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+      <text x="52" y="216" font-size="13" fill="#60A5FA" letter-spacing="2">[MON]</text>
+      <text x="120" y="214" font-size="16" fill="#F5F3FF" letter-spacing="2" font-weight="bold">SIEM &amp; MONITORING</text>
+      <text x="120" y="230" font-size="11" fill="#8B8BA7" letter-spacing="1">Wazuh ▸ ELK ▸ detection</text>
+      <g filter="url(#glow)"><rect x="520" y="202" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.15s" dur="0.15s" fill="freeze"/></rect><rect x="547" y="202" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.21s" dur="0.15s" fill="freeze"/></rect><rect x="574" y="202" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.27s" dur="0.15s" fill="freeze"/></rect><rect x="601" y="202" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.33s" dur="0.15s" fill="freeze"/></rect><rect x="628" y="202" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.39s" dur="0.15s" fill="freeze"/></rect><rect x="655" y="202" width="22" height="18" fill="#3B82F6" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.45s" dur="0.15s" fill="freeze"/></rect><rect x="682" y="202" width="22" height="18" fill="#3B82F6" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.51s" dur="0.15s" fill="freeze"/></rect><rect x="709" y="202" width="22" height="18" fill="#3B82F6" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.57s" dur="0.15s" fill="freeze"/></rect><rect x="736" y="202" width="22" height="18" fill="none" stroke="#2A2838" stroke-width="1.5"/><rect x="763" y="202" width="22" height="18" fill="none" stroke="#2A2838" stroke-width="1.5"/></g>
+      <text x="848" y="216" font-size="16" fill="#C4B5FD" text-anchor="end" font-weight="bold">08</text>
+    </g>
+    <g>
+      <rect x="34" y="238" width="832" height="40" fill="#1A0B2E" opacity="0.0">
+        <animate attributeName="opacity" values="0;0;0.75;0;0" keyTimes="0;0.667;0.750;0.833;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+      <text x="52" y="262" font-size="13" fill="#60A5FA" letter-spacing="2">[SYS]</text>
+      <text x="120" y="260" font-size="16" fill="#F5F3FF" letter-spacing="2" font-weight="bold">INFRASTRUCTURE</text>
+      <text x="120" y="276" font-size="11" fill="#8B8BA7" letter-spacing="1">Linux ▸ Windows ▸ AD ▸ virtualisation</text>
+      <g filter="url(#glow)"><rect x="520" y="248" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.40s" dur="0.15s" fill="freeze"/></rect><rect x="547" y="248" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.46s" dur="0.15s" fill="freeze"/></rect><rect x="574" y="248" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.52s" dur="0.15s" fill="freeze"/></rect><rect x="601" y="248" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.58s" dur="0.15s" fill="freeze"/></rect><rect x="628" y="248" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.64s" dur="0.15s" fill="freeze"/></rect><rect x="655" y="248" width="22" height="18" fill="#3B82F6" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.70s" dur="0.15s" fill="freeze"/></rect><rect x="682" y="248" width="22" height="18" fill="#3B82F6" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.76s" dur="0.15s" fill="freeze"/></rect><rect x="709" y="248" width="22" height="18" fill="#3B82F6" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.82s" dur="0.15s" fill="freeze"/></rect><rect x="736" y="248" width="22" height="18" fill="none" stroke="#2A2838" stroke-width="1.5"/><rect x="763" y="248" width="22" height="18" fill="none" stroke="#2A2838" stroke-width="1.5"/></g>
+      <text x="848" y="262" font-size="16" fill="#C4B5FD" text-anchor="end" font-weight="bold">08</text>
+    </g>
+    <g>
+      <rect x="34" y="284" width="832" height="40" fill="#1A0B2E" opacity="0.0">
+        <animate attributeName="opacity" values="0;0;0.75;0;0" keyTimes="0;0.833;0.917;1.000;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+      <text x="52" y="308" font-size="13" fill="#60A5FA" letter-spacing="2">[AUT]</text>
+      <text x="120" y="306" font-size="16" fill="#F5F3FF" letter-spacing="2" font-weight="bold">AUTOMATION</text>
+      <text x="120" y="322" font-size="11" fill="#8B8BA7" letter-spacing="1">Python ▸ Bash ▸ PowerShell</text>
+      <g filter="url(#glow)"><rect x="520" y="294" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.65s" dur="0.15s" fill="freeze"/></rect><rect x="547" y="294" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.71s" dur="0.15s" fill="freeze"/></rect><rect x="574" y="294" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.77s" dur="0.15s" fill="freeze"/></rect><rect x="601" y="294" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.83s" dur="0.15s" fill="freeze"/></rect><rect x="628" y="294" width="22" height="18" fill="#A855F7" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.89s" dur="0.15s" fill="freeze"/></rect><rect x="655" y="294" width="22" height="18" fill="#3B82F6" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.95s" dur="0.15s" fill="freeze"/></rect><rect x="682" y="294" width="22" height="18" fill="#3B82F6" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.01s" dur="0.15s" fill="freeze"/></rect><rect x="709" y="294" width="22" height="18" fill="none" stroke="#2A2838" stroke-width="1.5"/><rect x="736" y="294" width="22" height="18" fill="none" stroke="#2A2838" stroke-width="1.5"/><rect x="763" y="294" width="22" height="18" fill="none" stroke="#2A2838" stroke-width="1.5"/></g>
+      <text x="848" y="308" font-size="16" fill="#C4B5FD" text-anchor="end" font-weight="bold">07</text>
+    </g>
+  
+  <rect width="900" height="394" fill="url(#scan)" pointer-events="none"/>
+  <rect x="0" y="-120" width="900" height="120" fill="url(#band)">
+    <animate attributeName="y" values="-120;394" dur="7s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="900" height="394" fill="url(#vignette)" pointer-events="none"/>
+</svg>
