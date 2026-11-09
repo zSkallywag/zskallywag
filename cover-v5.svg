@@ -72,8 +72,7 @@
 <text x="72" y="252" font-family="'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="22" font-weight="600" letter-spacing="0.5" fill="#A855F7">Network &amp; Cybersecurity Engineer</text>
 <rect x="72" y="278" width="56" height="3" fill="#3B82F6"/>
 <text x="72" y="318" font-family="'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="16" fill="#8B8BA7">Network security · Infrastructure engineering · Vulnerability research</text>
-<text x="72" y="400" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="12.5" letter-spacing="1.5" fill="#C4B5FD" opacity="0.85">FORTINET · PALO ALTO · CISCO · WAZUH · LINUX · PYTHON · PROXMOX</text>
-<text x="72" y="428" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="12.5" letter-spacing="1.5" fill="#8B8BA7">cybernest.it  ·  silviumsecuritylab.com</text>
+<text x="72" y="372" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="12.5" letter-spacing="1.5" fill="#8B8BA7">cybernest.it  ·  silviumsecuritylab.com</text>
 <rect width="1500" height="500" fill="url(#vig)"/>
 <rect width="1500" height="500" fill="url(#scan)"/>
 </svg>
