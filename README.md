@@ -13,6 +13,6 @@ Working across network security, infrastructure engineering and vulnerability re
 
 **Tech:** Fortinet · Palo Alto · Cisco · Wazuh · Linux · Python · Proxmox
 
-**Projects:** [Cybernest](https://cybernest.it) · [Silvium Security Lab](https://silviumsecuritylab.com)
+**Projects:** [Cybernest](https://www.cybernest.it) · [Silvium Security Lab](https://silviumsecuritylab.com)
 
 [LinkedIn](https://www.linkedin.com/in/cesano/) · [Website](https://cybernest.it)
