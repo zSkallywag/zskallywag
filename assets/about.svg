@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" font-family="'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif">
+<defs></defs>
+<rect width="1200" height="420" fill="#000000"/>
+<text x="40" y="56" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="12" letter-spacing="1.5" fill="#8B8BA7" text-anchor="start">01 — ABOUT</text>
+<text x="40" y="140" font-size="50" font-weight="400" letter-spacing="-1.5" fill="#FFFFFF">Designing, <tspan fill="#8B5CF6">securing</tspan> and assessing</text>
+<text x="40" y="200" font-size="50" font-weight="400" letter-spacing="-1.5" fill="#FFFFFF">IT infrastructure.</text>
+<line x1="40" y1="260" x2="1160" y2="260" stroke="#2A2838"/>
+<text x="40.0" y="309" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="12" letter-spacing="1.5" fill="#8B5CF6" text-anchor="start">01</text>
+<text x="80.0" y="310" font-size="18" fill="#FFFFFF">Network &amp; Infrastructure Security</text>
+<text x="413.3333333333333" y="309" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="12" letter-spacing="1.5" fill="#8B8BA7" text-anchor="start">02</text>
+<text x="453.3333333333333" y="310" font-size="18" fill="#FFFFFF">Vulnerability Research</text>
+<text x="786.6666666666666" y="309" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="12" letter-spacing="1.5" fill="#8B8BA7" text-anchor="start">03</text>
+<text x="826.6666666666666" y="310" font-size="18" fill="#FFFFFF">Penetration Testing</text>
+<text x="40.0" y="365" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="12" letter-spacing="1.5" fill="#8B8BA7" text-anchor="start">04</text>
+<text x="80.0" y="366" font-size="18" fill="#FFFFFF">SIEM &amp; Security Monitoring</text>
+<text x="413.3333333333333" y="365" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="12" letter-spacing="1.5" fill="#8B8BA7" text-anchor="start">05</text>
+<text x="453.3333333333333" y="366" font-size="18" fill="#FFFFFF">Linux &amp; Windows Infrastructure</text>
+<text x="786.6666666666666" y="365" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="12" letter-spacing="1.5" fill="#8B8BA7" text-anchor="start">06</text>
+<text x="826.6666666666666" y="366" font-size="18" fill="#FFFFFF">Security Automation</text>
+</svg>

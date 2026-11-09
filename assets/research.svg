@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" font-family="'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif">
+<defs></defs>
+<rect width="1200" height="520" fill="#F2F1F5"/>
+<text x="40" y="56" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="12" letter-spacing="1.5" fill="#5A5A6E" text-anchor="start">03 — RESEARCH</text>
+<text x="40" y="120" font-size="46" font-weight="400" letter-spacing="-1.5" fill="#0A0A0F">Research &amp; Insights</text>
+<text x="620" y="116" font-size="14" fill="#0A0A0F">Repositories <tspan fill="#8B5CF6">↗</tspan></text>
+<line x1="40" y1="150" x2="1160" y2="150" stroke="#0A0A0F" stroke-opacity="0.35"/>
+<text x="40" y="194" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="12" letter-spacing="1.5" fill="#0A0A0F" text-anchor="start">CVE-2025-49618</text>
+<text x="40" y="248" font-size="38" font-weight="400" letter-spacing="-1" fill="#0A0A0F">Security vulnerability</text>
+<text x="40" y="292" font-size="38" font-weight="400" letter-spacing="-1" fill="#0A0A0F">research affecting</text>
+<text x="40" y="336" font-size="38" font-weight="400" letter-spacing="-1" fill="#0A0A0F">Plesk Obsidian</text>
+<text x="40" y="420" font-size="14" fill="#0A0A0F" fill-opacity="0.75">Published CVE · Web hosting control panel</text>
+<g><text x="40" y="470" font-size="14" fill="#0A0A0F">Read more <tspan fill="#8B5CF6">↗</tspan></text><rect x="40" y="478" width="0" height="1.5" fill="#8B5CF6"><animate attributeName="width" values="0;88;88;0" keyTimes="0;0.3;0.8;1" dur="4s" repeatCount="indefinite"/></rect></g>
+<text x="620" y="194" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="12" letter-spacing="1.5" fill="#5A5A6E" text-anchor="start">PROJECT 01</text>
+<text x="620" y="226" font-size="21" font-weight="400" fill="#0A0A0F">Security automation &amp; infrastructure tooling</text>
+<line x1="620" y1="252" x2="1160" y2="252" stroke="#0A0A0F" stroke-opacity="0.18"/>
+<text x="620" y="286" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="12" letter-spacing="1.5" fill="#5A5A6E" text-anchor="start">PROJECT 02</text>
+<text x="620" y="318" font-size="21" font-weight="400" fill="#0A0A0F">SIEM deployment &amp; log analysis</text>
+<line x1="620" y1="344" x2="1160" y2="344" stroke="#0A0A0F" stroke-opacity="0.18"/>
+<text x="620" y="378" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="12" letter-spacing="1.5" fill="#5A5A6E" text-anchor="start">PROJECT 03</text>
+<text x="620" y="410" font-size="21" font-weight="400" fill="#0A0A0F">Network security architecture &amp; hardening</text>
+<line x1="620" y1="436" x2="1160" y2="436" stroke="#0A0A0F" stroke-opacity="0.18"/>
+</svg>
