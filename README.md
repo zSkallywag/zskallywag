@@ -1,3 +1,5 @@
+<img src="./banner.svg" width="100%" alt="Gaetano Cesano — Network & Cybersecurity Engineer"/>
+
 <h2>Gaetano Cesano</h2>
 
 **Network & Cybersecurity Engineer**
